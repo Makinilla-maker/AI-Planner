@@ -120,7 +120,7 @@ namespace Generated.AI.Planner.Plans.RobberPlan
                 if (!(RobberBuffer[RobberObject.RobberIndex].CopAway == true))
                     continue;
                 
-                if (!(RobberBuffer[RobberObject.RobberIndex].Ready2steal == true))
+                if (!(RobberBuffer[RobberObject.RobberIndex].Ready2steal == false))
                     continue;
                 
                 

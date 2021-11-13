@@ -65,7 +65,7 @@ MonoBehaviour:
       m_Trait: {fileID: 0}
       m_TraitPropertyId: -1
       m_Enum: {fileID: 0}
-      m_Value: true
+      m_Value: false
   m_CreatedObjects: []
   m_RemovedObjects: []
   m_ObjectModifiers:
