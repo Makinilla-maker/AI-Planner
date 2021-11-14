@@ -776,6 +776,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b79d0b13355dc8f44b7956db61a82656, type: 3}
+--- !u!1 &1528251999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2248181919448582723, guid: c0aa33e678586aa43a1a9254fdfdfb4d, type: 3}
+  m_PrefabInstance: {fileID: 1857414567}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1718742843
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,6 +981,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5130ecc9e3db7342bb930ca43a197e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  treasure: {fileID: 1528251999}
+  copGO: {fileID: 859428156}
 --- !u!114 &1867897470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1084,44 +1091,19 @@ MonoBehaviour:
     m_Method: Wander
     m_SourceGameObject: {fileID: 1867897468}
     m_Source: {fileID: 1867897469}
-    m_Arguments:
-    - m_Parameter: Cop
-      m_Trait: {fileID: 0}
-      m_TraitPropertyId: -1
-      m_Enum: {fileID: 0}
-      m_Value: 
-    - m_Parameter: Treasure
-      m_Trait: {fileID: 0}
-      m_TraitPropertyId: -1
-      m_Enum: {fileID: 0}
-      m_Value: 
+    m_Arguments: []
   - m_ActionName: Approach
     m_PlanExecutorStateUpdateMode: 1
     m_Method: Seek
     m_SourceGameObject: {fileID: 1867897468}
     m_Source: {fileID: 1867897469}
-    m_Arguments:
-    - m_Parameter: Treasure
-      m_Trait: {fileID: 0}
-      m_TraitPropertyId: -1
-      m_Enum: {fileID: 0}
-      m_Value: 
-    - m_Parameter: Cop
-      m_Trait: {fileID: 0}
-      m_TraitPropertyId: -1
-      m_Enum: {fileID: 0}
-      m_Value: 
+    m_Arguments: []
   - m_ActionName: Steal
     m_PlanExecutorStateUpdateMode: 0
     m_Method: Steal
     m_SourceGameObject: {fileID: 1867897468}
     m_Source: {fileID: 1867897469}
-    m_Arguments:
-    - m_Parameter: Treasure
-      m_Trait: {fileID: 0}
-      m_TraitPropertyId: -1
-      m_Enum: {fileID: 0}
-      m_Value: 
+    m_Arguments: []
   m_AutoUpdate: 1
 --- !u!114 &1867897474
 MonoBehaviour:
